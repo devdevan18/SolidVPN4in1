@@ -7,6 +7,7 @@ echo -e " [2] VIP Server"
 echo -e " [3] Private Server"
 until [[ "$opts" =~ ^[1-3]$ ]]; do
 read -rp " Choose from [1-3]: " -e opts
+done
 yum install wget -y
 wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 yum install epel-release-6-8.noarch.rpm -y
