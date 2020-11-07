@@ -1,3 +1,4 @@
+#!/bin/bash
 ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
 echo 'SOLIDVPN Script'
 echo -e ""
